@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 
-function useScroll(parentClassName) {
+function useScroll(parentId) {
     const [percentageScrolled, setPercentageScrolled] = useState(0);
 
     
@@ -33,7 +33,7 @@ function useScroll(parentClassName) {
 
         const scroll = () => setPercentageScrolled(calculateScrollPercentage());
         // console.log(parent);
-        let parent = document.getElementsByClassName(parentClassName)[0];
+        let parent = document.getElementById(parentId);
         // console.log(parent);
         // document.addEventListener("scroll", scroll);
         parent.addEventListener("scroll", scroll);

@@ -1,10 +1,14 @@
 import './App.css';
-import ScrollProgressBar from './components/ScrollProgress/ScrollProgressBar';
+
+import ScrollProgressBarFrame from './components/ScrollProgressExample/ScrollProgressBarFrame';
+
+import SideBarFrame from './components/SideBarExample/SideBarFrame';
 
 function App() {
   return (
     <div className="App">
-      <ScrollProgressBar />
+      <ScrollProgressBarFrame />
+      <SideBarFrame />
     </div>
   );
 }

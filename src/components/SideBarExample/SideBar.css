@@ -1,0 +1,69 @@
+.SideBar {
+    /* position: fixed; */
+    position: absolute;
+    top: 0;
+    /* left: 100%; */
+    left: -110%;
+
+    z-index: 3;
+    transition: 850ms;
+
+    background-color: pink;
+
+    /* height: 100vh; */
+    height: 100%;
+    /* width: 400px; */
+    width: 50%;
+}
+
+.SideBar.Active {
+    left: 0%;
+    transition: 350ms;
+}
+
+.bar-container {
+    text-align: left;
+}
+
+.bar {
+    padding: 12px 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.bar div {
+    /* width: 35px; */
+    width: 30px;
+    height: 5px;
+    background-color: rgb(255, 92, 16);
+    border-radius: 10px;
+    margin: 5px 0;
+    transition: 0.4s;
+}
+
+.close-container {
+    text-align: left;
+}
+
+.close {
+    padding: 12px 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.close div {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(28, 119, 204);
+    border-radius: 10px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.close .close1 {
+    transform: rotate(-45deg) translate(-8px, 7px);
+}
+
+.close .close2 {
+    transform: rotate(45deg) translate(0px, 0px);
+}

@@ -17,9 +17,7 @@ const ProgressBar = ({ parentScroll }) => {
             <div
             style={{
                 width: percentScroll + '%',
-                
-                
-                background: 'red',
+                backgroundColor: "#fc3c3c",
                 height: '16px',
                 zIndex: 10
             }}
