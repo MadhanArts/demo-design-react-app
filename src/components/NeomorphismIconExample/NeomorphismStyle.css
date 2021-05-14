@@ -1,0 +1,49 @@
+
+.neomorphism-icon-frame {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+    background: #dde1e5;
+    /* padding: 30px; */
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dde1e5;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+    position: relative;
+    cursor: pointer;
+}
+
+.main-box::after {
+    content: '';
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    box-shadow: inset -3px -3px 7px #fff, inset 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+
+.main-box .icon {
+    background: #dde1e5;
+    color: #8f3b04;
+    font-size: 20px;
+    transition: 1s ease;
+}
+
+.main-box:hover .icon {
+    transform: rotate(360deg);
+    color: rgb(255, 72, 0);
+}
+
+.main-box:hover::after {
+    box-shadow: -3px -3px 7px #fff, 3px 3px 5px rgba(94, 104, 121, 0.712);
+}
+

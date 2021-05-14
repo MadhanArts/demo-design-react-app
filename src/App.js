@@ -1,4 +1,5 @@
 import './App.css';
+import NeomorphismIconFrame from './components/NeomorphismIconExample/NeomorphismIconFrame';
 
 import ScrollProgressBarFrame from './components/ScrollProgressExample/ScrollProgressBarFrame';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <ScrollProgressBarFrame />
       <SideBarFrame />
+      <NeomorphismIconFrame />
     </div>
   );
 }
