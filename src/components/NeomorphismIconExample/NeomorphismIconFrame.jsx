@@ -3,6 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin, faInstagram, faCodepen } from "@fortawesome/free-brands-svg-icons";
 import './NeomorphismStyle.css';
 
+
+// https://fontawesome.com/how-to-use/on-the-web/using-with/react
+// npm i --save @fortawesome/fontawesome-svg-core
+// npm install --save @fortawesome/free-solid-svg-icons
+// npm install --save @fortawesome/react-fontawesome
+// npm install --save @fortawesome/free-brands-svg-icons
+// npm install --save @fortawesome/free-regular-svg-icons
+
+
 class NeomorphismIconFrame extends Component {
     render() {
         return (
