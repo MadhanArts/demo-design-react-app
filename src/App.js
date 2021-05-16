@@ -3,6 +3,7 @@ import NavbarContainerFrame from './components/DropDownNavbarExample/NavbarConta
 import NeomorphismIconFrame from './components/NeomorphismIconExample/NeomorphismIconFrame';
 
 import ScrollProgressBarFrame from './components/ScrollProgressExample/ScrollProgressBarFrame';
+import SearchBarFrame from './components/SearchBarExample/SearchBarFrame';
 
 import SideBarFrame from './components/SideBarExample/SideBarFrame';
 
@@ -16,6 +17,8 @@ function App() {
       <SideBarFrame />
       <NeomorphismIconFrame />
       <NavbarContainerFrame />
+
+      <SearchBarFrame />
 
     </div>
   );
