@@ -7,8 +7,8 @@ function ClipPathHover() {
             className="clip-path-hover"
         >
             <a href="#button">
-                <span><i className="fa fa-instagram" aria-hidden="true" ></i> Button</span>
-                <span><i className="fa fa-instagram" aria-hidden="true" ></i> Button</span>
+                <span>Button</span>
+                <span>Button</span>
             </a>
         </div>
     )
