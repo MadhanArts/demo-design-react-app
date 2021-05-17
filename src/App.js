@@ -7,6 +7,7 @@ import NavbarContainerFrame from './components/DropDownNavbarExample/NavbarConta
 import SearchBarFrame from './components/SearchBarExample/SearchBarFrame';
 import TypeWriterEffectFrame from './components/TypeWriterEffectExample/TypeWriterEffectFrame';
 import AnimateOnScrollFrame from './components/AnimateOnScrollExample/AnimateOnScrollFrame';
+import ButtonsFrame from './components/ButtonsExample/ButtonsFrame';
 
 
 // Box Shadow Examples
@@ -20,9 +21,10 @@ function App() {
       <NeomorphismIconFrame />
       <NavbarContainerFrame />
       <SearchBarFrame /> 
-      <TypeWriterEffectFrame /> */}
+      <TypeWriterEffectFrame />
+      <AnimateOnScrollFrame /> */}
 
-      <AnimateOnScrollFrame />
+      <ButtonsFrame />
 
     </div>
   );
