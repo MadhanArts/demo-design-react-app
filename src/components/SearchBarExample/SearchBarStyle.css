@@ -8,7 +8,7 @@
     left: 10%;
     /* transform: translate(-50%, -50%); */
     background-color: #2f3640;
-
+    box-shadow: 0 0 15px #ff0095;
     border-radius: 40px;
     padding: 10px;
 }

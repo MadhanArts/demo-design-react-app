@@ -1,0 +1,19 @@
+.animate-onscroll-frame {
+    background-color: aquamarine;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 20%;
+    background-color: salmon;
+
+    transform: translateX(10%);
+    transition: transform 1.5s;
+}
+
+.moved {
+    transform: translateX(200%);
+}
