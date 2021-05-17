@@ -32,7 +32,7 @@ function App() {
       <NeomorphismIconFrame />
       <NavbarContainerFrame />
       <SearchBarFrame /> 
-      <TypeWriterEffectFrame />
+      <TypeWriterEffectFrame /> 
       <AnimateOnScrollFrame />
       <ButtonsFrame />
 
