@@ -1,0 +1,37 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  box-shadow: 0 0 10px #82c0ff;
+  background-color: var(--navbar-color);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: large;
+  color: var(--text-color);
+}
+
+.button {
+  padding: 8px 15px;
+  background: #fff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.button.login {
+  color: gold;
+  border: 2px solid gold;
+  background: var(--navbar-color);
+}
+
+.button.change-theme {
+  border: 2px solid #212e3a;
+}
