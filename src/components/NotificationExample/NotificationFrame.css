@@ -1,0 +1,28 @@
+.notification-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #26ff09;
+}
+
+.notification-button {
+  width: 50%;
+  font-size: 16px;
+  padding: 12px 20px;
+  background: #e100ff;
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  outline: none;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+
+.notification-button:hover {
+  background: #b400cc;
+}
