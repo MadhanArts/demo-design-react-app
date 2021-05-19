@@ -1,7 +1,6 @@
 .floating-icon {
     background-color: #dde1e5;
     height: 110px;
-
 }
 
 ul {
@@ -53,3 +52,18 @@ ul li:nth-child(1) a:hover .fab {
     color: #3b5998;
 }
 
+ul li:nth-child(2) a:hover .fab {
+    color: #00acee;
+}
+
+ul li:nth-child(3) a:hover .fab {
+    color: #db4a39;
+}
+
+ul li:nth-child(4) a:hover .fab {
+    color: #0e76a8;
+}
+
+ul li:nth-child(5) a:hover .fab {
+    color: #d42a58;
+}

@@ -11,6 +11,7 @@ import AnimateOnScrollFrame from "./components/AnimateOnScrollExample/AnimateOnS
 import ButtonsFrame from "./components/ButtonsExample/ButtonsFrame";
 import NotificationFrame from "./components/NotificationExample/NotificationFrame";
 import NavBar from "./components/Navbar/NavBar";
+// import CustomToggleSwitch from "./components/ToggleSwitchExample/CustomToggleSwitch";
 
 // Box Shadow Examples
 // https://getcssscan.com/css-box-shadow-examples
@@ -33,7 +34,6 @@ function App() {
       <TypeWriterEffectFrame />
       <AnimateOnScrollFrame />
       <ButtonsFrame />
-
       <NotificationFrame />
     </div>
   );
