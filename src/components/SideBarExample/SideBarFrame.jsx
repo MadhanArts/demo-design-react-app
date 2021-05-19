@@ -7,6 +7,9 @@ class SideBarFrame extends Component {
             <div
                 className="container side-bar-frame"
                 id="side-bar-frame"
+                style={{
+                    background: '#ffa07a'
+                }}
             >
                 <SideBar />
             </div>

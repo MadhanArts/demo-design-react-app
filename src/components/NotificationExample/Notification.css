@@ -1,17 +1,18 @@
 .notification {
   position: fixed;
   top: 20px;
-  left: 100%;
+  left: 110%;
   width: 340px;
-
+  z-index: 2;
   padding: 22px 30px;
   border-radius: 12px;
   background-color: #ffc350;
+  box-shadow: 0 0 10px grey;
 }
 
 @keyframes showup {
   from {
-    left: 100%;
+    left: 110%;
   }
 
   to {
@@ -25,7 +26,7 @@
   }
 
   to {
-    left: 100%;
+    left: 110%;
   }
 }
 

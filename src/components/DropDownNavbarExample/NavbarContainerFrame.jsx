@@ -10,7 +10,11 @@ function NavbarContainerFrame() {
 
     return (
         <div className="container navbar-container-frame"
-            id="navbar-container-frame" >
+            id="navbar-container-frame"
+            style={{
+                background: '#ffffe0'
+            }}
+            >
             <NavBar />
             <div style={{
                 padding: '10px'

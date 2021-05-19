@@ -13,6 +13,9 @@ const ScrollProgressBarFrame = () => {
         <div 
             className="container scroll-progressbar-frame"
             id={id}
+            style={{
+                background: '#20b2aa'
+            }}
         >
             <ProgressBar
                 parentScroll={percentScroll}
