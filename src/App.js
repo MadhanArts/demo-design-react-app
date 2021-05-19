@@ -11,6 +11,7 @@ import AnimateOnScrollFrame from "./components/AnimateOnScrollExample/AnimateOnS
 import ButtonsFrame from "./components/ButtonsExample/ButtonsFrame";
 import NotificationFrame from "./components/NotificationExample/NotificationFrame";
 import NavBar from "./components/Navbar/NavBar";
+import PerfectAvatarFrame from "./components/PerfectAvatarExample/PerfectAvatarFrame";
 // import CustomToggleSwitch from "./components/ToggleSwitchExample/CustomToggleSwitch";
 
 // Box Shadow Examples
@@ -35,6 +36,7 @@ function App() {
       <AnimateOnScrollFrame />
       <ButtonsFrame />
       <NotificationFrame />
+      <PerfectAvatarFrame />
     </div>
   );
 }
