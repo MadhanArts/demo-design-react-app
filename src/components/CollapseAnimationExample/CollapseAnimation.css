@@ -1,0 +1,32 @@
+.section {
+    width: 50%;
+    margin: 0px auto;
+}
+
+.section-title {
+    background-color: #cd9167;
+    color: #5c453d;
+    width: 100%;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.content {
+    background-color: #f1f1f1;
+    width: 100%;
+    display: list-item;
+    /* padding: 20px; */
+    overflow: hidden;
+    max-height: 0px;
+    
+    transition: max-height 0.5s linear;
+}
+
+.content p {
+    padding: 20px;
+}
+
+.content.shown {
+    max-height: 200px;
+}

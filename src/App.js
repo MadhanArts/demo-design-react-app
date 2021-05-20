@@ -12,33 +12,35 @@ import ButtonsFrame from "./components/ButtonsExample/ButtonsFrame";
 import NotificationFrame from "./components/NotificationExample/NotificationFrame";
 import NavBar from "./components/Navbar/NavBar";
 import PerfectAvatarFrame from "./components/PerfectAvatarExample/PerfectAvatarFrame";
+import CollapseAnimationFrame from "./components/CollapseAnimationExample/CollapseAnimationFrame";
 // import CustomToggleSwitch from "./components/ToggleSwitchExample/CustomToggleSwitch";
 
 // Box Shadow Examples
 // https://getcssscan.com/css-box-shadow-examples
 
 function App() {
-  useEffect(() => {
-    setTimeout(() => {
-      document.getElementById("preloader").classList.remove("visible");
-    }, 100);
-  }, []);
+    useEffect(() => {
+        setTimeout(() => {
+            document.getElementById("preloader").classList.remove("visible");
+        }, 100);
+    }, []);
 
-  return (
-    <div className='App'>
-      <NavBar />
-      <ScrollProgressBarFrame />
-      <SideBarFrame />
-      <NeomorphismIconFrame />
-      <NavbarContainerFrame />
-      <SearchBarFrame />
-      <TypeWriterEffectFrame />
-      <AnimateOnScrollFrame />
-      <ButtonsFrame />
-      <NotificationFrame />
-      <PerfectAvatarFrame />
-    </div>
-  );
+    return (
+        <div className='App'>
+            <NavBar />
+            <ScrollProgressBarFrame />
+            <SideBarFrame />
+            <NeomorphismIconFrame />
+            <NavbarContainerFrame />
+            <SearchBarFrame />
+            <TypeWriterEffectFrame />
+            <AnimateOnScrollFrame />
+            <ButtonsFrame />
+            <NotificationFrame />
+            <PerfectAvatarFrame />
+            <CollapseAnimationFrame />
+        </div>
+    );
 }
 
 export default App;
