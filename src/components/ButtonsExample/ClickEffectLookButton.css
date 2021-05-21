@@ -1,0 +1,32 @@
+.click-effect-look-button-frame {
+    background-color: blanchedalmond;
+    padding: 15px;
+}
+
+.click-effect-look-button {
+    position: relative;
+    font-size: 1em;
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(248, 95, 78);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #4898e4;
+}
+
+.click-effect-look-button::before {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    clip-path: circle(0px at 50% 50%);
+    transition: 0.5s ease-in-out;
+}
+
+.click-effect-look-button:active::before {
+    clip-path: circle(100%);
+}
