@@ -1,6 +1,7 @@
 .floating-icon {
     background-color: #dde1e5;
     height: 110px;
+    position: relative;
 }
 
 ul {

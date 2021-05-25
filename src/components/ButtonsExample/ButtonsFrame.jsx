@@ -2,6 +2,7 @@ import React from "react";
 import ClickEffectLookButton from "./ClickEffectLookButton";
 import ClipPathHover from "./ClipPathHover";
 import FloatingIcon from "./FoatingIcon";
+import RippleHoverEffectButton from "./RippleHoverEffectButton";
 
 function ButtonsFrame() {
     return (
@@ -9,6 +10,7 @@ function ButtonsFrame() {
             <ClipPathHover />
             <FloatingIcon />
             <ClickEffectLookButton />
+            <RippleHoverEffectButton />
         </div>
     );
 }

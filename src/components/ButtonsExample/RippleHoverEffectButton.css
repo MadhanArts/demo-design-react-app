@@ -1,0 +1,49 @@
+.ripple-hover-effect-button-frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    background-color: #222;
+    position: relative;
+}
+
+.ripple-hover-effect-button {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    background-color: #363636;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+
+.ripple-hover-effect-button span {
+    
+    position: relative;
+    z-index: 1;
+}
+
+.ripple-hover-effect-button::before {
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background: #2196f3;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out;
+}
+
+.ripple-hover-effect-button:hover::before {
+    width: 300px;
+    height: 300px;
+}
